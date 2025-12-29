@@ -1,0 +1,83 @@
+.upload-report {
+  width: 100%;
+}
+
+.upload-report h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.upload-report .form-group {
+  margin-bottom: 20px;
+}
+
+.upload-report label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 500;
+}
+
+.upload-report input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px dashed #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.upload-report input[type="file"]:hover {
+  border-color: #667eea;
+  background: #f0f0ff;
+}
+
+.file-name {
+  margin-top: 8px;
+  color: #667eea;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.upload-report input[type="text"],
+.upload-report input[type="number"],
+.upload-report input[type="date"],
+.upload-report select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.upload-report input:focus,
+.upload-report select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.vitals-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.vitals-section h4 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.vitals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .vitals-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
