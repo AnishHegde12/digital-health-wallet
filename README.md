@@ -419,22 +419,3 @@ REACT_APP_API_URL=http://localhost:5000/api
 ## 📄 License
 
 This project is created for educational purposes as part of the 2care.ai assignment.
-
-## 🤝 Contributing
-
-This is an assignment project. For production use, consider:
-- Implementing comprehensive error handling
-- Adding unit and integration tests
-- Implementing rate limiting
-- Adding request validation
-- Implementing logging
-- Setting up CI/CD pipeline
-
-## 📧 Contact
-
-For questions or issues, please refer to the repository documentation or contact the development team.
-
----
-
-**Built with ❤️ for Digital Health Management**
-
